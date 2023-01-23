@@ -1,15 +1,12 @@
 // Import HTMLElement here
-import HTMLElement from './HTMLElement';
+import HTMLElement from './HTMLElement.mjs';
+console.log(HTMLElement)
 
 // Define class here
 class DivElement extends HTMLElement {
   constructor(content) {
-    super();
-    this.content = content;
-  }
-
-  render() {
-    super.render();
+    super("div", content);
+    // this.content = content;
   }
 }
 
@@ -20,4 +17,4 @@ console.log(andIThinkToMyself.render());
 // prints "<div>What a wonderful world</div>"
 
 // Export class here
-export default { DivElement };
+export default DivElement;

@@ -1,4 +1,4 @@
-import HTMLElement from '../src/components/HTMLElement';
+import HTMLElement from '../src/components/HTMLElement.mjs';
 import DivElement from '../src/components/DivElement';
 
 describe('DivElement class', () => {

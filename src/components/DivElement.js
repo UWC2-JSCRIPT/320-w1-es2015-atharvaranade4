@@ -1,14 +1,13 @@
 // Import HTMLElement here
 import HTMLElement from './HTMLElement.mjs';
-console.log(HTMLElement)
 
 // Define class here
 class DivElement extends HTMLElement {
   constructor(content) {
     super('div', content);
     // this.content = content;
-  }
-};
+  };
+}
 
 // Usage Tests
 // const andIThinkToMyself = new DivElement('What a wonderful world');

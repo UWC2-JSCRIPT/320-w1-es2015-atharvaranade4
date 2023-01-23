@@ -26,7 +26,7 @@ const Timer = class {
         clearInterval(timerInterval);
       }
 
-      console.log(this.seconds);
+      // console.log(this.seconds);
       this.seconds -= 1;
     }).bind(this), 1000);
   }

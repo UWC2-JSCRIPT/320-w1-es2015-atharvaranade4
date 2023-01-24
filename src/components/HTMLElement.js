@@ -18,4 +18,4 @@ class HTMLElement {
 // prints "<p>I am never so happy as when I am really engaged in good earnest...</p>"
 
 // Export class here
-module.exports =  HTMLElement;
+export default HTMLElement;

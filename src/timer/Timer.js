@@ -28,7 +28,7 @@ const Timer = class {
 
       // console.log(this.seconds);
       this.seconds -= 1;
-    }).bind(this), 1000);
+    }), 1000);
   }
 };
 
